@@ -8,4 +8,4 @@ Richard
 Mike
 Maarten
 
-The 3circles data can be downloaded from the link send to you by email
+The 3circles data can be downloaded from the link sent to you by email
