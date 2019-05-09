@@ -19,6 +19,7 @@ Recap second session: we will be focusing on:
 4. Movement hotspot analysis and transition matrices by seasonality (Antonia is going to kickstart this and give a shout if she needs support).
 
 Considering the writing, there is an overleaf document that lives here: 
+https://www.overleaf.com/7764458452rsrkytpfwzzq
 
 Deadline: 22th of may, 4 pages max, figures included. 
 
