@@ -11,13 +11,15 @@ Maarten
 
 The 3circles data can be downloaded from the link sent to you by email
 
+Recap second session: we will be focusing on: 
 
-Jobs to do first: per year.
+1. Getting the recent category tree (Juste)  --Done! 
+2. Sparsing the category tree and adding it to the data (Maarten)
+3. Describing the coverage of some of the first order categories (such as Food) with relation to Natalia's firm dataset. I guess some maps at lsoa or oa will be sufficient? (Natalia)
+4. Movement hotspot analysis and transition matrices by seasonality (Antonia is going to kickstart this and give a shout if she needs support).
 
-1. Map the venues per categories -Maarten
-2. Verify some of the category counts with Natalias data  -Natalia
-3. MSOA level, describe MSOA with distribution of present categories. --Entropy map for the categories -Iacopo 
-4. Transition matrix of the categories, maybe per month? -Antonia, but please, Antonia, do the simple stuff.. 
-5. Transition matrix beween msoa (optional) -Juste
+Considering the writing, there is an overleaf document that lives here: 
 
-Meeting next week thursday
+Deadline: 22th of may, 4 pages max, figures included. 
+
+
