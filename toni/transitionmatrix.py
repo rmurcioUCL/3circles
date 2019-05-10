@@ -68,8 +68,9 @@ print 'diff', len(diff), 'tot',len(igot), 'how many', len(list(set(diff)))
 #print list(set(diff))
 fh.close()
 dims=len(set(list(categ.values())))+1
-####################################################
-## new read the movements between venues categories (now averything is aggregated, tomorrow I will plot more figures)
+
+##################################################################################################################
+## new read the movements between venues categories London All
 ###############
 fh=open('/home/antonia/workspace/UCL/4squares/Data/movements_v2/London_movements_v2.csv','r')	
 igot = fh.readlines()
@@ -94,9 +95,40 @@ for line in igot:
 		pass
 sorted_transcat = sorted(transcat.items(), key=operator.itemgetter(1),reverse=True)
 print sorted_transcat
-
 fh.close()
+#######
+## Figure London All
+#######
 
-plt.matshow(matrix)
+fig, ax = plt.subplots()
+im = ax.imshow(matrix)
 
+
+# We want to show all ticks...
+ax.set_xticks(np.arange(len(axis)))
+ax.set_yticks(np.arange(len(axis)))
+# ... and label them with the respective list entries
+ax.set_xticklabels(axis)
+ax.set_yticklabels(axis)
+
+# Rotate the tick labels and set their alignment.
+plt.setp(ax.get_xticklabels(), rotation=45, ha="right",
+         rotation_mode="anchor")
+
+# Loop over data dimensions and create text annotations.
+#for i in range(len(axis)):
+#    for j in range(len(axis)):
+#        text = ax.text(j, i, matrix[i, j],
+#                       ha="center", va="center", color="w")
+
+ax.set_title("Transition London All")
+fig.tight_layout()
+fig.colorbar(im)
+fig.savefig('TransitionFig/London_all.svg', dpi=fig.dpi)
+fig.savefig('TransitionFig/London_all.eps', dpi=fig.dpi)
 plt.show()
+
+
+
+
+
